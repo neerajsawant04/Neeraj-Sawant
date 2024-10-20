@@ -1,6 +1,6 @@
 # Neeraj Sawant's Connect Website
 
-Welcome to the personal website of Neeraj Sawant, a Software Engineer from Navi Mumbai, India. This site showcases my professional journey and provides links to my social profiles.
+Welcome to the personal website of Neeraj Sawant, a Software Engineer from Navi Mumbai, India. This site showcases links to my social profiles.
 
 ## Features
 
