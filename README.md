@@ -12,7 +12,7 @@ Welcome to the personal website of Neeraj Sawant, a Software Engineer from Navi 
 
 - HTML
 - CSS
-- 
+  
 ## Installation
 
 To run this website locally, clone the repository:
