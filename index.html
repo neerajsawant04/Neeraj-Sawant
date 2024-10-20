@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Sawant | Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Hover effect for links */
+        a:hover {
+            text-decoration: underline;
+            color: #f97316; /* Tailwind's orange-500 color */
+        }
+
+        /* Make sure the links are not blocked by other elements */
+        header {
+            z-index: 10; /* Higher z-index to ensure it's clickable */
+        }
+    </style>
+</head>
+<body class="relative overflow-hidden bg-gradient-to-r from-black via-indigo-900 to-black h-screen flex flex-col justify-between">
+    <!-- Top Header with Links -->
+    <header class="absolute top-0 left-0 right-0 text-white p-4">
+        <div class="flex justify-end space-x-4">
+            <!-- Links to Profiles -->
+            <a href="https://github.com/neerajsawant04" target="_blank">GitHub</a>
+            <a href="https://x.com/sawantneeraj04" target="_blank">X</a>
+            <a href="https://linkedin.com/in/neeraj-sawant-123456" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/_neerajjj_1/" target="_blank">Instagram</a>
+    
+            
+        </div>
+    </header>
+
+    <!-- Animated Background -->
+    <div class="absolute inset-0 overflow-hidden z-0">
+        <div class="wave-animation"></div>
+    </div>
+
+    <!-- Bottom Left Name -->
+    <footer class="absolute bottom-0 left-0 p-4 text-white z-10">
+        <p>Neeraj Sawant</p>
+    </footer>
+
+    <!-- Bottom Right Contact Info with Functional Email Link -->
+    <footer class="absolute bottom-0 right-0 p-4 text-white z-10 text-right">
+        <p>
+            <a href="mailto:sawantneeraj04@gmail.com" class="hover:underline">sawantneeraj04@gmail.com</a>
+        </p>
+        <p>Software Engineer &bull; Navi Mumbai, India</p>
+    </footer>
+</body>
+</html>
